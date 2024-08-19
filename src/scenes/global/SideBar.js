@@ -102,7 +102,11 @@ const SideBar = () => {
                   alignItems: "center",
                 }}
               >
-                <Avatar src={ProfileImage} />
+                <Avatar
+                  alt="profile-user"
+                  style={{ cursor: "pointer" }}
+                  src={ProfileImage}
+                />
               </Box>
 
               <Box textAlign="center">
@@ -112,7 +116,7 @@ const SideBar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Ed Roh
+                  Frirsta
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   VP Fancy Admin
