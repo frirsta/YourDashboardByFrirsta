@@ -5,7 +5,7 @@ import TopBar from "./scenes/global/TopBar";
 import Dashboard from "./scenes/dashboard";
 import SideBar from "./scenes/global/SideBar";
 import { useState } from "react";
-// import Team from "./scenes/Team";
+import Team from "./scenes/Team";
 // import Invoices from "./scenes/Invoices";
 // import Contacts from "./scenes/Contacts";
 // import Bar from "./scenes/Bar";
@@ -29,8 +29,8 @@ function App() {
             <TopBar isSideBar={isSideBar} />
             <Routes>
              <Route path="/" element={<Dashboard />} /> 
-              {/* <Route path="/team" element={<Team />} />
-              <Route path="/contacts" element={<Contacts />} />
+               <Route path="/team" element={<Team />} />
+              {/* <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
               <Route path="/Bar" element={<Bar />} />
               <Route path="/Form" element={<Form />} />
