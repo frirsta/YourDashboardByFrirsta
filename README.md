@@ -11,5 +11,13 @@ npm install react-router-dom@latest
 
 npm install formik --save
 npm install yup --save
+npm install \
+  @fullcalendar/core \
+  @fullcalendar/daygrid \
+  @fullcalendar/timegrid \
+  @fullcalendar/list
+
+npm install @fullcalendar/core @fullcalendar/interaction @fullcalendar/daygrid
+  npm install @fullcalendar/react @fullcalendar/core @fullcalendar/daygrid
 avatar
 <a href="https://www.flaticon.com/free-icons/profile" title="profile icons">Profile icons created by Freepik - Flaticon</a>
