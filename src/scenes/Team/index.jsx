@@ -1,11 +1,12 @@
-import { Box, Typography, useTheme } from "@mui/material";
-import { tokens } from "../../theme";
 import Header from "../../components/Header";
-import { DataGrid } from "@mui/x-data-grid";
+import { tokens } from "../../theme";
 import { mockDataTeam } from "../../data/mockData";
+import { Box, Typography, useTheme } from "@mui/material";
+import { DataGrid } from "@mui/x-data-grid";
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
+
 const Team = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -25,13 +26,13 @@ const Team = () => {
       headerAlign: "left",
       align: "left",
     },
-    { field: "phone", headerName: "Phone-Number", flex: 1 },
+    { field: "phone", headerName: "Phone Number", flex: 1 },
     { field: "email", headerName: "Email", flex: 1 },
     {
       field: "accessLevel",
       headerName: "Access Level",
       flex: 1,
-      readerCell: ({ row: { access } }) => {
+      renderCell: ({ row: { access } }) => {
         return (
           <Box
             width="60%"
@@ -60,7 +61,7 @@ const Team = () => {
     },
   ];
   return (
-    <Box>
+    <Box m="20px">
       <Header title="TEAM" subtitle="Managing the Team Members" />
       <Box
         m="40px 0 0 0"
@@ -69,9 +70,10 @@ const Team = () => {
           "& .MuiDataGrid-root": { border: "none" },
           "& .MuiDataGrid-cell": {
             borderBottom: "none",
+            alignContent: "center",
           },
-          "& .name-column--cell": { color: colors.greenAccent[200] },
-          "&MuiDataGrid-columnHeaders": {
+          "& .name-column--cell": { color: colors.greenAccent[300] },
+          "& .MuiDataGrid-columnHeaders": {
             backgroundColor: colors.blueAccent[700],
             borderBottom: "none",
           },
@@ -83,7 +85,7 @@ const Team = () => {
             backgroundColor: colors.blueAccent[700],
           },
           "& .MuiCheckbox-root": {
-            color: `&{colors.greenAccent[200]} columns={columns}`,
+            color: `${colors.greenAccent[200]} !important`,
           },
         }}
       >
