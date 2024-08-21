@@ -8,8 +8,8 @@ import SideBar from "./scenes/global/SideBar";
 import Team from "./scenes/Team";
 import Contacts from "./scenes/Contacts";
 import Invoices from "./scenes/Invoices";
+import Form from "./scenes/form";
 // import Bar from "./scenes/Bar";
-// import Form from "./scenes/Form";
 // import Line from "./scenes/Line";
 // import Pie from "./scenes/Pie";
 // import FAQ from "./scenes/FAQ";
@@ -33,8 +33,8 @@ function App() {
               <Route path="/contacts" element={<Contacts />} />
 
               <Route path="/invoices" element={<Invoices />} />
-              {/* <Route path="/Bar" element={<Bar />} />
               <Route path="/Form" element={<Form />} />
+              {/* <Route path="/Bar" element={<Bar />} />
               <Route path="/line" element={<Line />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/geography" element={<Geography />} />
