@@ -8,7 +8,19 @@ import { tokens } from "../theme";
 const GeographyChart = ({ isDashboard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-
+  const customTooltip = (node) => (
+    <div
+      style={{
+        padding: "5px",
+        color: colors.grey[100],
+        background: colors.primary[500],
+        borderRadius: "3px",
+        boxShadow: "0 0 5px rgba(0, 0, 0, 0.3)",
+      }}
+    >
+      <strong>{node.feature.properties.name}</strong>: {node.feature.value}
+    </div>
+  );
   return (
     <ResponsiveChoropleth
       data={data}
@@ -25,6 +37,7 @@ const GeographyChart = ({ isDashboard = false }) => {
       projectionRotation={[0, 0, 0]}
       borderWidth={1.5}
       borderColor="#ffffff"
+      tooltip={customTooltip}
       enableGraticule={true} 
       graticuleLineColor={colors.grey[100]}  
       graticuleLineWidth={0.5}  
