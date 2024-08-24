@@ -1,39 +1,33 @@
-# Getting Started with Create React App
+# YourDashboard
 
-npm install @mui/material @emotion/react @emotion/styled
-npm install @mui/material @mui/styled-engine-sc styled-components
-npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-npm i react-router-dom
-npm install react-pro-sidebar@0.7.1
+Dashboard8 is a React-based dashboard application designed to visualize various types of data through interactive and responsive charts. This project includes multiple data visualization components such as bar charts, pie charts, line charts, and a geographical map using Nivo and Material-UI.
 
-npm install @mui/x-data-grid
-npm install react-router-dom@latest
-npm i -S react-simple-maps
+<b>Live link: [YourDashboard](https://yourdashboard.netlify.app/) </b> 
 
-npm install formik --save
-npm install yup --save
-npm install \
- @fullcalendar/core \
- @fullcalendar/daygrid \
- @fullcalendar/timegrid \
- @fullcalendar/list
+## Features
 
-npm install @fullcalendar/core @fullcalendar/interaction @fullcalendar/daygrid
-npm install @fullcalendar/react @fullcalendar/core @fullcalendar/daygrid
+<b>Bar Chart:</b> Visualize categorical data with bars.
 
-@nivo/bar
+<b>Pie Chart:</b> Display data proportions as a pie chart.
 
-@nivo/pie
+<b>Line Chart:</b> Track trends over time with a line chart.
 
-@nivo/line
+<b>Geographical Map:</b> Map data onto a world map with a choropleth.
 
-@nivo/geo
+<b>Theme Support:</b> Light and dark modes.
 
-npm install @nivo/core @nivo/bar @nivo/pie @nivo/line @nivo/geo
+## Technologies
 
-npm i -S react-simple-maps
-nvm install 18
-nvm use 18
+<b>React:</b> A JavaScript library for building user interfaces, particularly single-page applications.
 
-avatar
-<a href="https://www.flaticon.com/free-icons/profile" title="profile icons">Profile icons created by Freepik - Flaticon</a>
+<b>Nivo:</b> A data visualization library built on top of D3.js, providing a set of components to create various charts in React.
+
+<b>Material-UI:</b> A popular React UI framework that provides pre-designed components following Google's Material Design principles.
+
+<b>Node.js:</b> A JavaScript runtime for executing JavaScript code server-side, used for package management and development tooling.
+
+<b>Webpack/Babel:</b> For module bundling and transpiling ES6+ JavaScript to ensure compatibility across different browsers.
+
+## Credits
+
+This project was built by following this [YouTube tutorial](https://www.youtube.com/watch?v=wYpCWwD1oz0&t=1458s).
