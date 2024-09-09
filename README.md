@@ -2,7 +2,8 @@
 
 Dashboard8 is a React-based dashboard application designed to visualize various types of data through interactive and responsive charts. This project includes multiple data visualization components such as bar charts, pie charts, line charts, and a geographical map using Nivo and Material-UI.
 
-<b>Live link: [YourDashboard](https://yourdashboard.netlify.app/) </b> 
+<b>Live link: [YourDashboardByFrirsta](https://yourdashboardbyfrirsta.netlify.app)
+</b> 
 
 ## Features
 
@@ -29,5 +30,7 @@ Dashboard8 is a React-based dashboard application designed to visualize various 
 <b>Webpack/Babel:</b> For module bundling and transpiling ES6+ JavaScript to ensure compatibility across different browsers.
 
 ## Credits
+
+**Favicon:** <a href="https://www.freepik.com/icon/dashboard_4882406#fromView=search&page=1&position=90&uuid=05ba6c19-efc1-4a50-a8a9-73d9340efe3c">Icon by Freepik</a>
 
 This project was built by following this [YouTube tutorial](https://www.youtube.com/watch?v=wYpCWwD1oz0&t=1458s).
