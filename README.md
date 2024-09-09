@@ -4,6 +4,7 @@ Dashboard8 is a React-based dashboard application designed to visualize various 
 
 <b>Live link: [YourDashboardByFrirsta](https://yourdashboardbyfrirsta.netlify.app)
 </b> 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c46555d5-38b3-42c2-87b5-cc50a2b3a07f/deploy-status)](https://app.netlify.com/sites/yourdashboardbyfrirsta/deploys)
 
 ## Features
 
